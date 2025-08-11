@@ -11,7 +11,7 @@ class Product {
     if (newprice > 0) {
       _price = newprice;
     } else {
-      print("Enter a Valid price..");
+      print("Enter a positive price..");
     }
   }
 

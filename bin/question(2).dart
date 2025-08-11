@@ -34,7 +34,7 @@ class PartTimeEmployee extends Employee {
   @override
   calculateSalary() {
     total = hoursworked * salaryperhour;
-    print("--------Part Time-----");
+    print("--------Part Time Employee-----");
     print("""Hours Worked: $hoursworked
 Salary Per-Hour: $salaryperhour
 Total Salary: $total""");

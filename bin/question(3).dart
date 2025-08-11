@@ -8,5 +8,5 @@ void main() {
 
   p1.setprice = 100;
   print("New Price : ${p1.getprice}");
-  print("Price with Tax: ${p1.priceWithTax}");
+  print("Price withTax: ${p1.priceWithTax}");
 }
